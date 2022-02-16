@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+span{
+  /* display: inline-block;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 5px; */
+  color: green;
+  font-weight: bold;
+}
+.parent_div{
+  display: flex;
+  justify-content: center;
+}
+.card_alignment{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.child_div{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  padding: 10px;
+}
+.card_style{
+  display: flex;
+  float:left;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+ 
+  align-items: center;
+ padding: 10px;
+ /* margin: 10px; */
+}
+.img_size{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.cardDirection{
+  display: flex;
+  flex-direction: row;
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.searchBar{
+  width: 300px;
+  border-radius: 20px;
+  
+  height: 35px;
+
+}
+.priceBar{
+  width: 100px;
+  height:38px;
+  border-color: green;
+  margin-bottom: 5px;
+}
+b{
+  color: white;
+}
+.float_left{
+  position: relative;
+  margin-left: 5px;
+}
+.float_right{
+  position: absolute;
+  right: 60px;
+  top:80px;
+}
